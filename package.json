@@ -1,0 +1,14 @@
+{
+  "name": "playwright-cucumber-automation-framework-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser UI automation framework using Playwright, Cucumber, and JavaScript",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.55.0"
+  }
+}
